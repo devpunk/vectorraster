@@ -36,6 +36,8 @@
 		DAAA26041EE08CA3009196E7 /* VView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA25E91EE08CA3009196E7 /* VView.swift */; };
 		DAAA26061EE08F85009196E7 /* CHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA26051EE08F85009196E7 /* CHome.swift */; };
 		DAAA26081EE09A02009196E7 /* VHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA26071EE09A02009196E7 /* VHome.swift */; };
+		DAAA260A1EE0B99A009196E7 /* IwanPigSVG.svg in Resources */ = {isa = PBXBuildFile; fileRef = DAAA26091EE0B99A009196E7 /* IwanPigSVG.svg */; };
+		DAAA260C1EE0C338009196E7 /* figure1.svg in Resources */ = {isa = PBXBuildFile; fileRef = DAAA260B1EE0C338009196E7 /* figure1.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		DAAA25E91EE08CA3009196E7 /* VView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VView.swift; sourceTree = "<group>"; };
 		DAAA26051EE08F85009196E7 /* CHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHome.swift; sourceTree = "<group>"; };
 		DAAA26071EE09A02009196E7 /* VHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VHome.swift; sourceTree = "<group>"; };
+		DAAA26091EE0B99A009196E7 /* IwanPigSVG.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = IwanPigSVG.svg; sourceTree = "<group>"; };
+		DAAA260B1EE0C338009196E7 /* figure1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = figure1.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +204,8 @@
 		DAAA25D91EE08CA3009196E7 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				DAAA260B1EE0C338009196E7 /* figure1.svg */,
+				DAAA26091EE0B99A009196E7 /* IwanPigSVG.svg */,
 				DAAA25DA1EE08CA3009196E7 /* Localizable.strings */,
 				DAAA25DC1EE08CA3009196E7 /* ResourceURL.plist */,
 			);
@@ -302,6 +308,8 @@
 				DAAA25EA1EE08CA3009196E7 /* LaunchScreen.storyboard in Resources */,
 				DAAA25F91EE08CA3009196E7 /* Localizable.strings in Resources */,
 				DAAA25FA1EE08CA3009196E7 /* ResourceURL.plist in Resources */,
+				DAAA260C1EE0C338009196E7 /* figure1.svg in Resources */,
+				DAAA260A1EE0B99A009196E7 /* IwanPigSVG.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
