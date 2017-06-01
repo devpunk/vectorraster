@@ -35,6 +35,7 @@
 		DAAA26031EE08CA3009196E7 /* VToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA25E81EE08CA3009196E7 /* VToast.swift */; };
 		DAAA26041EE08CA3009196E7 /* VView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA25E91EE08CA3009196E7 /* VView.swift */; };
 		DAAA26061EE08F85009196E7 /* CHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA26051EE08F85009196E7 /* CHome.swift */; };
+		DAAA26081EE09A02009196E7 /* VHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA26071EE09A02009196E7 /* VHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		DAAA25E81EE08CA3009196E7 /* VToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VToast.swift; sourceTree = "<group>"; };
 		DAAA25E91EE08CA3009196E7 /* VView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VView.swift; sourceTree = "<group>"; };
 		DAAA26051EE08F85009196E7 /* CHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHome.swift; sourceTree = "<group>"; };
+		DAAA26071EE09A02009196E7 /* VHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 		DAAA25DE1EE08CA3009196E7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				DAAA26071EE09A02009196E7 /* VHome.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				DAAA25EB1EE08CA3009196E7 /* CAppDelegate.swift in Sources */,
 				DAAA26011EE08CA3009196E7 /* VParentPushBackground.swift in Sources */,
 				DAAA25F01EE08CA3009196E7 /* ExtensionNotification.swift in Sources */,
+				DAAA26081EE09A02009196E7 /* VHome.swift in Sources */,
 				DAAA25F21EE08CA3009196E7 /* ExtensionNSManagedObject.swift in Sources */,
 				DAAA25EC1EE08CA3009196E7 /* CController.swift in Sources */,
 				DAAA26021EE08CA3009196E7 /* VSpinner.swift in Sources */,

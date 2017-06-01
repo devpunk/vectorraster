@@ -8,7 +8,7 @@ class VView:UIView
     weak var layoutBottom:NSLayoutConstraint!
     weak var pushBackground:VParentPushBackground?
     
-    init(controller:CController)
+    required init(controller:CController<VView>)
     {
         super.init(frame:CGRect.zero)
         clipsToBounds = true

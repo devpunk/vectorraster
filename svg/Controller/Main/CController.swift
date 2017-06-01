@@ -1,6 +1,6 @@
 import UIKit
 
-class CController:UIViewController
+class CController<T:VView>:UIViewController
 {
     init()
     {
@@ -18,6 +18,12 @@ class CController:UIViewController
         {
             return self.parent as! CParent
         }
+    }
+    
+    override func loadView()
+    {
+//        let view:T = T(controller:self)
+//        self.view = view
     }
     
     override func viewDidLoad()
