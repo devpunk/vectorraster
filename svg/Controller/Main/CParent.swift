@@ -34,8 +34,8 @@ class CParent:UIViewController
     {
         super.viewDidLoad()
         
-        let controllerLanding:CLanding = CLanding()
-        mainController(controller:controllerLanding)
+        let controller:CHome = CHome()
+        mainController(controller:controller)
     }
     
     override func loadView()
