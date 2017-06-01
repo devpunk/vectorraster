@@ -22,8 +22,6 @@ class CController<T:VView>:UIViewController
     
     override func loadView()
     {
-//        let view:T = T(controller:self)
-//        self.view = view
     }
     
     override func viewDidLoad()
