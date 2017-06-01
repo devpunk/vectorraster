@@ -34,6 +34,7 @@
 		DAAA26021EE08CA3009196E7 /* VSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA25E71EE08CA3009196E7 /* VSpinner.swift */; };
 		DAAA26031EE08CA3009196E7 /* VToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA25E81EE08CA3009196E7 /* VToast.swift */; };
 		DAAA26041EE08CA3009196E7 /* VView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA25E91EE08CA3009196E7 /* VView.swift */; };
+		DAAA26061EE08F85009196E7 /* CHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA26051EE08F85009196E7 /* CHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		DAAA25E71EE08CA3009196E7 /* VSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSpinner.swift; sourceTree = "<group>"; };
 		DAAA25E81EE08CA3009196E7 /* VToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VToast.swift; sourceTree = "<group>"; };
 		DAAA25E91EE08CA3009196E7 /* VView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VView.swift; sourceTree = "<group>"; };
+		DAAA26051EE08F85009196E7 /* CHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		DAAA25C41EE08CA3009196E7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				DAAA26051EE08F85009196E7 /* CHome.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				DAAA25F71EE08CA3009196E7 /* ExtensionURL.swift in Sources */,
 				DAAA25F51EE08CA3009196E7 /* ExtensionUIColor.swift in Sources */,
 				DAAA26041EE08CA3009196E7 /* VView.swift in Sources */,
+				DAAA26061EE08F85009196E7 /* CHome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
