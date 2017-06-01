@@ -12,14 +12,6 @@ class CController<T:VView>:UIViewController
         return nil
     }
     
-    override var parent:UIViewController?
-    {
-        get
-        {
-            return self.parent as? CParent
-        }
-    }
-    
     override func loadView()
     {
         let view:T = T(controller:self)
