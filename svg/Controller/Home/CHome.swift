@@ -1,10 +1,5 @@
 import UIKit
 
-class CHome<T:VHome>:CController<T> where T:VView
+class CHome:CController<VHome>
 {
-    func asd()
-    {
-        let controller:CController = CController()
-        VView(controller:controller)
-    }
 }

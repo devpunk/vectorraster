@@ -57,7 +57,7 @@ class CParent:UIViewController
     
     //MARK: private
     
-    private func slide(controller:CController<VView>, left:CGFloat)
+    private func slide(controller:UIViewController, left:CGFloat)
     {
         guard
             
@@ -99,13 +99,13 @@ class CParent:UIViewController
         setNeedsStatusBarAppearanceUpdate()
     }
     
-    func slideTo(horizontal:TransitionHorizontal, controller:CController<VView>)
+    func slideTo(horizontal:TransitionHorizontal, controller:UIViewController)
     {
         let left:CGFloat = -viewParent.bounds.maxX * horizontal.rawValue
         slide(controller:controller, left:left)
     }
     
-    func mainController(controller:CController<VView>)
+    func mainController(controller:UIViewController)
     {
         addChildViewController(controller)
         
@@ -122,7 +122,7 @@ class CParent:UIViewController
     }
     
     func push(
-        controller:CController<VView>,
+        controller:UIViewController,
         horizontal:TransitionHorizontal = TransitionHorizontal.none,
         vertical:TransitionVertical = TransitionVertical.none,
         background:Bool = true,
@@ -160,7 +160,7 @@ class CParent:UIViewController
         }
     }
     
-    func animateOver(controller:CController<VView>)
+    func animateOver(controller:UIViewController)
     {
         guard
             
